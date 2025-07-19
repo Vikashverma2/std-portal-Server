@@ -1,0 +1,6 @@
+@StdPortel_HostAddress = http://localhost:5028
+
+GET {{StdPortel_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
