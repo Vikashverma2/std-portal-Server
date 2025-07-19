@@ -6,11 +6,13 @@ using StdPortel.Services;
 var builder = WebApplication.CreateBuilder(args);
 
 // Register services
+
 builder.Services.AddControllers();
 builder.Services.AddSwaggerGen();
 builder.Services.AddTransient<IStdServices, StdServices>();
 
 // ✅ Add CORS policy
+
 builder.Services.AddCors(options =>
 {
     options.AddPolicy("AllowAll", policy =>

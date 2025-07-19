@@ -2,7 +2,7 @@ using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using StdPortel.Models;
 using StdPortel.Services;
-
+// Copyright @Vikash Verma
 namespace StdPortel.Controllers
 {
     [Route("api/[controller]")]
